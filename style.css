@@ -1,0 +1,78 @@
+body {
+    Background: #fafafa;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Snell Roundhand", cursive;
+    }
+/* --- navbar ---*/
+.navbar {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: :1000;
+        background-color: rgb(86, 86, 211);
+        padding: 15px 0;
+        text-align: center;
+}
+/*list*/
+.nav-list {
+      list-style:none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+
+}
+/*items*/
+.nav-list > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 8px 12px;
+    display: block;
+}
+.dropdown { 
+    position: relative;
+}
+.dropdown-menu{
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 160px;
+    background-color: #444;
+    background-radius: 6px;
+    display: none;
+}
+.droipdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.dropdown-menu li a:hover{
+    display: block;
+    background-color: #555;
+
+}
+/*hovershow*/
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+.center-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.center-content img{
+    width: 300px;
+    margin-top: 20px;
+}
+
+h1{
+    color: #333;
+
+}
